@@ -1,0 +1,13 @@
+set temperature at normal
+
+set usertemp at 0 
+
+while the usertemp is at 0
+
+	ask for the temp
+	
+	if temp guess less than 97.5 equals then display low
+
+	else if temp guess greater than 97.5 and less than 99.5 then display normal 
+
+	else if temp guess greater than 99.5 then display high
